@@ -31,4 +31,4 @@ node_modules
 *.pem
 
 # Project specific
-/build
+lib
