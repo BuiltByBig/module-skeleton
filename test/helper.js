@@ -8,4 +8,6 @@ chai.use(require('sinon-chai'))
 global.expect = chai.expect
 global.sinon = sinon
 
-process.on('unhandledRejection', (err) => { throw err })
+process.on('unhandledRejection', (err) => {
+  throw err
+})

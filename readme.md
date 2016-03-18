@@ -34,6 +34,12 @@ myLib('foo') //=> 'bar'
 
 A description of my module...
 
+<a name="module_my-lib..hello"></a>
+
+### my-lib~hello ⇒ <code>String</code>
+Say hello!
+
+**Kind**: inner property of <code>[my-lib](#module_my-lib)</code>  
 **Returns**: <code>String</code> - - The welcome message  
 
 | Param | Type | Description |
@@ -41,9 +47,6 @@ A description of my module...
 | [name] | <code>String</code> | The name to say hi to |
 
 
-
-ERROR, Cannot find identifier.
-ERROR, Cannot find identifier.
 
 ## Contributing
 

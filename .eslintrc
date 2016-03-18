@@ -2,29 +2,33 @@
   "globals": {
     "expect": true,
     "sinon": true,
-    "window": true,
-    "chrome": true
+    "describe": true,
+    "chai": true,
+    "it": true
   },
-  "ecmaFeatures": {
-    "arrowFunctions": true,
-    "binaryLiterals": true,
-    "blockBindings": true,
-    "defaultParams": true,
-    "forOf": true,
-    "generators": true,
-    "globalReturn": true,
-    "jsx": true,
-    "modules": true,
-    "objectLiteralComputedProperties": true,
-    "objectLiteralDuplicateProperties": true,
-    "objectLiteralShorthandMethods": true,
-    "objectLiteralShorthandProperties": true,
-    "octalLiterals": true,
-    "regexUFlag": true,
-    "regexYFlag": true,
-    "superInFunctions": true,
-    "templateStrings": true,
-    "unicodeCodePointEscapes": true
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "arrowFunctions": true,
+      "binaryLiterals": true,
+      "blockBindings": true,
+      "defaultParams": true,
+      "forOf": true,
+      "generators": true,
+      "globalReturn": true,
+      "jsx": true,
+      "modules": true,
+      "objectLiteralComputedProperties": true,
+      "objectLiteralDuplicateProperties": true,
+      "objectLiteralShorthandMethods": true,
+      "objectLiteralShorthandProperties": true,
+      "octalLiterals": true,
+      "regexUFlag": true,
+      "regexYFlag": true,
+      "superInFunctions": true,
+      "templateStrings": true,
+      "unicodeCodePointEscapes": true
+    },
   },
   "env": {
     "amd": true,
@@ -87,7 +91,10 @@
     "quotes": [2, "single"],
     "semi": [2, "never"],
     "strict": 2,
-    "space-after-keywords": [2, "always"],
+    "keyword-spacing": [2, {
+      "before": true,
+      "after": true,
+    }],
     "space-before-function-paren": [
       2,
       {
