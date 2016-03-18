@@ -1,0 +1,6 @@
+--compilers js:babel-register
+--recursive
+--colors
+--ui bdd
+--reporter spec
+--require test/helper
